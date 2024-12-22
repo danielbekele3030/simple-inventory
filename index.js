@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import authRoutes from './routes/authRoutes.js';
+import authRoutes from './routers/authRoutes.js'
 import productRoute from './routes/productRoute.js';
 import inventoryRoute from './routes/inventoryRoute.js';
 import connectDB from './config.js';
